@@ -6,7 +6,7 @@ import { User } from '../models';
  * @route GET /api/v1/users
  */
 export const getAllUsers = async (
-  req: Request,
+  _req: Request,
   res: Response
 ): Promise<void> => {
   try {
